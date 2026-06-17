@@ -35,6 +35,7 @@ Stage 0 is deliberately minimal and local-first:
 - WebGL renderer
 - projector selection or buying guide
 - system autostart changes
+- kiosk setup scripts
 - private media, local IPs, device serials, secrets, credentials, or account data
 
 ## Future stages
