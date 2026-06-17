@@ -8,10 +8,6 @@ Open `src/visual.html` from the file manager, or run `xdg-open src/visual.html` 
 
 Use Firefox or Chromium. Press `F` after the page opens to request fullscreen.
 
-## Optional browser fullscreen mode
-
-For Chromium, open the file and then use the browser fullscreen key. For Firefox, open the file and use the browser fullscreen key. Keep the first version simple before adding autostart or kiosk scripts.
-
 ## First test procedure
 
 1. Test on a normal monitor or TV first.
@@ -34,3 +30,7 @@ For Chromium, open the file and then use the browser fullscreen key. For Firefox
 ## Projector notes
 
 For used projectors, native Full HD and stable HDMI input matter more than 4K support. Test focus, brightness, fan noise, lamp hours, and whether 1920x1080 input is accepted before relying on it for installation work.
+
+## Autostart and kiosk status
+
+Autostart and kiosk setup are not implemented in Stage 0. Add them later as a separate reviewed task after the visual prototype is tested on the real media PC.
