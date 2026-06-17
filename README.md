@@ -46,7 +46,7 @@ You can also open `src/visual.html` directly from the file manager in Firefox or
 
 Start with normal browser fullscreen. Test on a monitor or TV before connecting a projector.
 
-Optional kiosk-style browser commands are documented in [`docs/RUN_LINUX_MINT.md`](docs/RUN_LINUX_MINT.md). They are documentation only; the project does not change system startup or browser settings by itself.
+Linux Mint run notes are documented in [`docs/RUN_LINUX_MINT.md`](docs/RUN_LINUX_MINT.md). They are documentation only; the project does not change system startup or browser settings by itself.
 
 ## Public-safe boundary
 
@@ -73,4 +73,8 @@ Not implemented in stage 0:
 
 ## Project direction
 
-Future stages may add a WebGL renderer, named scene presets, audio reactivity, kiosk autostart, Home Assistant/MQTT control, and ESP32 remote input. Those integrations are not active yet.
+Future stages may add a WebGL renderer, named scene presets, audio reactivity, kiosk/autostart notes, Home Assistant/MQTT control, and ESP32 remote input. Those integrations are not active yet.
+
+## Bootstrap route note
+
+The Stage 0 repository contents were added after Skeleton registered LumenFlow as a public-safe project route and the Runner checkout was synced. The initial files are intentionally plain and local-first so they can be reviewed directly in GitHub and opened locally without a build system.
