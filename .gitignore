@@ -1,0 +1,25 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local-only notes and test captures
+local/
+captures/
+*.log
+
+# Secrets must never be committed
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets/
+
+# Dependency/build folders are not used in stage 0, but ignore them if created locally
+node_modules/
+dist/
+build/
