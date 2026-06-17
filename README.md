@@ -70,6 +70,7 @@ Not implemented in stage 0:
 - projector buying guide
 - private media assets
 - paid APIs
+- autostart or kiosk setup
 
 ## Project direction
 
